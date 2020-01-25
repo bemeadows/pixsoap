@@ -4,7 +4,7 @@
 <main class="products">
   <img src="/images/icons/cheese-background.svg" alt="" class="background-image">
   <div class="promotional-message">
-    <img class="header__logo" src="/images/icons/pixsoap-logo.png" alt="pixsoap logo">
+    <img class="w3-image" src="/images/icons/pixsoap-logo.png" alt="pixsoap logo">
   </div>
   {{ range where .Site.RegularPages "Section" "products"}}
     {{ partial "product.html" .Params }}
