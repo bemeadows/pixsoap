@@ -2,9 +2,9 @@
 
 <!-- {{ $products := getJSON "/data/products.json" }} -->
 <main class="products">
-  <img src="/images/icons/bubbles.svg" alt="Bubbles" class="background-image" style="width:auto">
+  <img src="/images/icons/bubbles.svg" alt="bubbles" class="background-image" style="width:100%;max-width:400px">
   <div class="promotional-message">
-    <img class="w3-hover-grayscale" src="/images/icons/pixsoap-logo.png" alt="pixsoap logo">
+    <img class="w3-image" src="/images/icons/pixsoap-logo.png" alt="pixsoap logo">
   </div>
   {{ range where .Site.RegularPages "Section" "products"}}
     {{ partial "product.html" .Params }}
