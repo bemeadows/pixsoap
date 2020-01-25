@@ -14,3 +14,5 @@ Technical steps:
 > Read the [blog post here](https://snipcart.com/blog/hugo-tutorial-static-site-ecommerce)
 
 > Try the [demo here](https://snipcart-hugo-forestry.netlify.com/)
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8f7fae2b-1de5-4683-b69d-d7c28fc8194c/deploy-status)](https://app.netlify.com/sites/pixsoap/deploys)
